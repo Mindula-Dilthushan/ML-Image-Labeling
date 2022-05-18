@@ -7,12 +7,14 @@
  */
 
 import React from 'react';
-import RootRoute from './src/routes/RootRoute';
+import {Text, View} from 'react-native';
 
-const App = () => {
+const WelcomeScreen = () => {
     return (
-        <RootRoute/>
-    );
-};
+        <View>
+            <Text>Welcome Screen</Text>
+        </View>
+    )
+}
 
-export default App;
+export default WelcomeScreen;
