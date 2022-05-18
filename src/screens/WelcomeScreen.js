@@ -12,8 +12,8 @@ import AlphaCSS from '../style/AlphaCSS';
 
 const WelcomeScreen = () => {
     return (
-        <View style={[AlphaCSS.container,AlphaCSS.bgRed]}>
-            <Text style={[AlphaCSS.fontWhite]}>Welcome Screen</Text>
+        <View style={[AlphaCSS.container,AlphaCSS.bgLightBlue]}>
+            <Text style={[AlphaCSS.fontWhite,AlphaCSS.fontSize20]}>Welcome Screen</Text>
         </View>
     )
 }
