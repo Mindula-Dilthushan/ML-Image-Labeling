@@ -8,11 +8,12 @@
 
 import React from 'react';
 import {Text, View} from 'react-native';
+import AlphaCSS from '../style/AlphaCSS';
 
 const WelcomeScreen = () => {
     return (
-        <View>
-            <Text>Welcome Screen</Text>
+        <View style={[AlphaCSS.container,AlphaCSS.bgRed]}>
+            <Text style={[AlphaCSS.fontWhite]}>Welcome Screen</Text>
         </View>
     )
 }
