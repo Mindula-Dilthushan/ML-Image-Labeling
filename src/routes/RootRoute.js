@@ -7,12 +7,12 @@
  */
 
 import React from 'react';
-import RootRoute from './src/routes/RootRoute';
+import WelcomeScreen from '../screens/WelcomeScreen';
 
-const App = () => {
+const RootRoute = () => {
     return (
-        <RootRoute/>
+        <WelcomeScreen/>
     );
 };
 
-export default App;
+export default RootRoute;
